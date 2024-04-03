@@ -12,7 +12,7 @@ if __package__ == '':
     sys.path.insert(0, path)
     sys.path.insert(0, os.getcwd())
 
-#from confpass import confpass  # noqa
-import confpass
+from confpass import confpass  # noqa
+#import confpass
 if __name__ == '__main__':
     sys.exit(confpass.main())

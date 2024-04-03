@@ -1,0 +1,1 @@
+from confpass import confpass
